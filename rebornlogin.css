@@ -1,0 +1,88 @@
+input[type=text] 
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0px;
+    color: white;
+    border-bottom: 2px solid black;
+    outline:none;
+    background-image: linear-gradient(90deg, rgba(0, 129, 169, 1) 0%, rgba(0, 173, 167, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  input[type=textbt]
+  {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button:hover
+  {
+    background-image: linear-gradient(pink,blue);
+    cursor: pointer;
+  }
+  
+  .form{
+    position: absolute;
+    top: 80px;
+    right: 550px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 50px;
+    height: 600px;
+    width: 500px;
+    background-image: linear-gradient(90deg, rgba(0, 129, 169, 1) 0%, rgba(0, 173, 167, 1) 100%);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    
+  }
+
+  .parent
+  {
+     position: relative;
+  }
+
+  img{
+    width: 200px;
+    height: 50px;
+    padding-top: 30px;
+  }
+
+  .para{
+    color:white;
+    background-position: bottom;
+    padding-top: 90px;
+    line-height: 10px;
+  }
+
+  .para :hover{
+    cursor: pointer;
+  }
+
+  button {
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    width: 30%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa
+{
+  color: black;
+}

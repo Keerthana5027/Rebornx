@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./rebornlogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<form onsubmit="popup(); return false;">
+
+<div class="parent">
+    
+    <div class="form">
+        
+    <img src="./rebornimg.png" alt="">
+    
+    <h3>LOG IN</h3>
+
+    <!-- <label for="fname"></label> -->
+     <div>
+    <i class="fa fa-solid fa-user"></i>
+    <input type="text" id="fname" name="fname" placeholder="Username" autocomplete="off" required>
+    </div>
+
+    <!-- <label for="lname"></label> -->
+     <div>
+    <i class="fa fa-key icon"></i>
+    <input type="text" id="lname" name="lname" placeholder="Password" autocomplete="off" required>
+     </div>
+     
+    <div>
+    <button>login</button>
+    </div>
+
+    <div class="para">
+    <p>Forgot Password?</p>
+    <p>Change Email?</p>
+ </div>
+   </div>
+   </div>
+</div>
+</form>
+<script>
+    function popup(){
+        alert("login successfully")
+    }
+</script>
+</body>
+</html>
